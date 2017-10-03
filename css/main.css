@@ -707,8 +707,9 @@ a:not([href]):not([tabindex]):hover {
    Video promo Style
    ========================================================================== */
 .video-promo {
-  background: url(../img/bg_2.jpg) fixed;
+  background: url(../img/sublogo.jpg) fixed;
   background-position: cover;
+  background-size: 100%;
   position: relative;
 }
 .video-promo .video-promo-content {
