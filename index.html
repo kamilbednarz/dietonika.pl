@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107505702-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107505702-1');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -287,7 +297,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Twój email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                      <input type="email" placeholder="Twój email" id="email" class="form-control" name="email" required data-error="Please enter your email">
                       <div class="help-block with-errors"></div>
                     </div> 
                   </div>
@@ -300,19 +310,17 @@
                       <div class="g-recaptcha" data-sitekey="6LfW4zIUAAAAAEAYRiGUTlbTnPty0nSqR4xbqpRP"></div>
                     </div>
                     <div class="submit-button text-center">
-                      <button class="btn btn-common g-recaptcha"
-                      onclick="onContctUsSubmit()" >Wyślij</button>
+                      <button class="btn btn-common"
+                      onclick="onContctUsSubmit()">Wyślij</button>
                       <div class="clearfix"></div> 
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <div class="sending well">
-                      Wysyłam wiadomość...
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="thanks well">
-                      Dziękuję! Niedługo skontaktuję się z tobą drogą mailową.
+                    <div class="thanks">
+                      <div class="btn btn-common">
+                        <i class="lnr lnr-checkmark-circle"></i> 
+                        Dziękuję! Niedługo skontaktuję<br/>się z tobą drogą mailową.
+                      </div>
                     </div>
                   </div>
                 </div>            
