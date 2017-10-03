@@ -1241,3 +1241,20 @@ footer {
 .g-recaptcha-response.error {
   box-shadow: 2px 2px 5px red;
 }
+
+@media (min-width:768px) {
+  .menu.navbar, #open-button  {
+    display:none;
+  }
+  #video-area .menu.navbar {
+    display:block;
+  }
+}
+@media (max-width:768px) {
+  .menu.navbar, #open-button {
+    display:block;
+  }
+  #video-area .menu.navbar {
+    display: none;
+  }
+}
