@@ -2,3 +2,7 @@ a{color:#1EB858;}a:hover{color:#1EB858;}.btn-common{border-color:#1EB858;backgro
 .menu-bg .logo-menu a, #video-area .menu-bg nav div a { 
   color: #1EB858;
 }
+.double-bounce1,
+.double-bounce2 {
+  background-color: #1EB858;
+}
