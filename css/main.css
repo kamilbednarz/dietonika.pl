@@ -1258,3 +1258,6 @@ footer {
     display: none;
   }
 }
+.video-promo-content h2 {
+  font-family: 'Lato', sans-serif;
+}
