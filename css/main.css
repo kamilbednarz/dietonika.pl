@@ -316,7 +316,7 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
 }
 #video-area .contents {
-  padding: 160px 0 80px;
+  padding: 140px 0 70px;
 }
 #video-area .contents h1 {
   color: #fff;
@@ -1260,4 +1260,37 @@ footer {
 }
 .video-promo-content h2 {
   font-family: 'Lato', sans-serif;
+}
+.company-logo-white {
+  background-image: url(../img/dietonika-logo-white.png);
+  width: 10em;
+  height: 7em;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.flat-logo {
+  background-image: url(../img/dietonika-logo-text-white.png);
+  width: 6em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.flat-logo.apple {
+  background-image: url(../img/dietonika-logo-flat-white.png);
+  width: 1.2em;
+  height: 1.5em;
+  margin-right: 6px;
+}
+.menu-bg .flat-logo {
+  background-image: url(../img/dietonika-logo-text-green.png);
+  margin-top: 4px;
+}
+.menu-bg .flat-logo.apple {
+  background-image: url(../img/dietonika-logo-flat-green.png);
+  margin-top: 4px;
+}
 }
