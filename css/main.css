@@ -428,7 +428,6 @@ a:not([href]):not([tabindex]):hover {
 }
 #services {
   position: relative;
-  background: #f2f2f2;
 }
 /* ==========================================================================
    Features Section Style
