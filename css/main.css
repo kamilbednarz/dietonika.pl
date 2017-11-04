@@ -987,6 +987,65 @@ a:not([href]):not([tabindex]):hover {
 .btn:disabled {
   opacity: 1;
 }
+#how-we-work {
+  counter-reset: item;
+  padding-bottom: 20px;
+  background: #f2f2f2;
+}
+#how-we-work .main-section {
+  padding: 0 15%;
+}
+@media (max-width:768px) {
+  #how-we-work .container {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media (max-width:600px) {
+  #how-we-work .fa {
+    display: none;
+  }
+}
+#how-we-work .fa {
+  font-size: 5em;
+  padding-bottom: 0.8em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  padding-top: 0.2em;
+}
+#how-we-work .fa.pull-left {
+  padding-right: 1em;
+}
+#how-we-work .fa.pull-right {
+  padding-left: 1em;
+}
+#how-we-work ol {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.3em;
+}
+#how-we-work li {
+  counter-increment: item;
+  margin-bottom: 50px;
+  clear: both;
+}
+#how-we-work li b {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+#how-we-work ol li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: #1EB858;
+  border-radius: 100%;
+  color: white;
+  width: 1.4em;
+  text-align: center;
+  display: inline-block;
+}
+#how-we-work h4 {
+  display: inline-block;
+}
 #contact {
   background: #f2f2f2;
 }
