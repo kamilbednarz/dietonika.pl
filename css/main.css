@@ -161,6 +161,13 @@ a:not([href]):not([tabindex]):hover {
   font-size: 20px;
   color: #fff;
 }
+
+@media (max-width: 967px) and (min-width: 768px) {
+  .menu-bg .container {
+    width: 100%;
+    margin: 0;
+  }
+}
 .menu-bg {
   background-color: #fff!important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
