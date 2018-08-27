@@ -1358,3 +1358,10 @@ footer {
 input#gdpr-consent {
   margin-right: 8px;
 }
+
+.map {
+  height: 400px;
+}
+#contact { 
+  padding-bottom: 30px;
+}
