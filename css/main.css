@@ -1000,22 +1000,22 @@ a:not([href]):not([tabindex]):hover {
   }
 }
 #first-visit .fa {
-  font-size: 3em;
-  padding-bottom: 0.8em;
-  padding-left: 0.4em;
-  padding-right: 0.4em;
-  padding-top: 0.2em;
+  font-size: 48px;
+  padding-bottom: 12px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
 }
 #first-visit .fa.pull-left {
-  padding-right: 1em;
+  padding-right: 16px;
 }
 #first-visit .fa.pull-right {
-  padding-left: 1em;
+  padding-left: 16px;
 }
 #first-visit ol {
   list-style: none;
   padding-left: 0;
-  font-size: 1.3em;
+  font-size: 20px;
   margin-top: 35px;
 }
 #first-visit li {
@@ -1033,7 +1033,8 @@ a:not([href]):not([tabindex]):hover {
   background: #1EB858;
   border-radius: 100%;
   color: white;
-  width: 1.4em;
+  height: 30px;
+  width: 30px;
   text-align: center;
   display: inline-block;
 }
