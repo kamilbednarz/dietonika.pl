@@ -980,53 +980,54 @@ a:not([href]):not([tabindex]):hover {
 .btn:disabled {
   opacity: 1;
 }
-#how-we-work {
+#first-visit {
   counter-reset: item;
   padding-bottom: 20px;
   background: #f2f2f2;
 }
-#how-we-work .main-section {
+#first-visit .main-section {
   padding: 0 15%;
 }
 @media (max-width:768px) {
-  #how-we-work .container {
+  #first-visit .container {
     margin: 0;
     width: 100%;
   }
 }
 @media (max-width:600px) {
-  #how-we-work .fa {
+  #first-visit .fa {
     display: none;
   }
 }
-#how-we-work .fa {
-  font-size: 5em;
+#first-visit .fa {
+  font-size: 3em;
   padding-bottom: 0.8em;
   padding-left: 0.4em;
   padding-right: 0.4em;
   padding-top: 0.2em;
 }
-#how-we-work .fa.pull-left {
+#first-visit .fa.pull-left {
   padding-right: 1em;
 }
-#how-we-work .fa.pull-right {
+#first-visit .fa.pull-right {
   padding-left: 1em;
 }
-#how-we-work ol {
+#first-visit ol {
   list-style: none;
   padding-left: 0;
   font-size: 1.3em;
+  margin-top: 35px;
 }
-#how-we-work li {
+#first-visit li {
   counter-increment: item;
   margin-bottom: 50px;
   clear: both;
 }
-#how-we-work li b {
+#first-visit li b {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
-#how-we-work ol li:before {
+#first-visit ol li:before {
   margin-right: 10px;
   content: counter(item);
   background: #1EB858;
@@ -1036,7 +1037,7 @@ a:not([href]):not([tabindex]):hover {
   text-align: center;
   display: inline-block;
 }
-#how-we-work h4 {
+#first-visit h4 {
   display: inline-block;
 }
 #contact {
