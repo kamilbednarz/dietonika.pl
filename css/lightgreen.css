@@ -6,3 +6,10 @@ a{color:#1EB858;}a:hover{color:#1EB858;}.btn-common{border-color:#1EB858;backgro
 .double-bounce2 {
   background-color: #1EB858;
 }
+
+.btn-common:disabled { 
+  color: #1EB858;
+  border-color: #1EB858;
+  background-color: white;
+  pointer-events: auto;
+}

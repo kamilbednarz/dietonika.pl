@@ -130,4 +130,8 @@
    $(window).load(function() {
     "use strict";
     $('#loader').fadeOut();
+
+    $('input#gdpr-consent').on('change', function() {
+      $('#contactFormSubmit').prop('disabled', function(i, v) { return !v; });
+    });
    });

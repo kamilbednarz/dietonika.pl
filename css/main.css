@@ -1353,3 +1353,7 @@ footer {
   margin-top: 4px;
 }
 }
+
+input#gdpr-consent {
+  margin-right: 8px;
+}

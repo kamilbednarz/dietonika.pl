@@ -449,6 +449,12 @@
                       <textarea class="form-control" placeholder="Twoja wiadomość" rows="11" data-error="Write your message" name="message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
+                    <div class="gdpr-consent">
+                      <label for="gdpr-consent">
+                        <input type="checkbox" name="gdpr-consent" id="gdpr-consent"/>
+                        Wyrażam zgodę na przetwarzanie moich danych osobowych przez firmę Dietonika Poradnia Dietetyki Klinicznej w celu przesyłania treści marketingowych na mój adres mailowy podany powyżej w formularzu kontaktowym zgodnie z <a href="javascript:void(0);" data-target="#privacy-policy-modal" data-toggle="modal">polityką prywatności</a>.
+                      </label>
+                    </div>
                     <div>
                       <div class="g-recaptcha" data-sitekey="6LfW4zIUAAAAAEAYRiGUTlbTnPty0nSqR4xbqpRP"></div>
                       <div class="captcha-error alert alert-danger" style="display: none;">
@@ -456,8 +462,10 @@
                       </div>
                     </div>
                     <div class="submit-button text-center">
-                      <button class="btn btn-common"
-                      onclick="onContctUsSubmit()">Wyślij</button>
+                      <button id="contactFormSubmit"
+                              disabled
+                              class="btn btn-common"
+                              onclick="onContctUsSubmit()">Wyślij</button>
                       <div class="clearfix"></div>
                     </div>
                   </div>
@@ -509,6 +517,30 @@
       </div>
     </div>
 
+    <div class="modal" id="privacy-policy-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title">Polityka prywatności</h6>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Administratorem Państwa danych osobowych jest firma Dietonika Poradnia Dietetyki Klinicznej z siedzibą w Osieku (32-608) przy ulicy Bielańskiej 5. Państwa dane osobowe będą przetwarzane w celach kontaktowych i przesyłania treści marketingowych, na podstawie Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 roku w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+            </p>
+            <p>
+              Mają Państwo prawo dostępu do treści swoich danych osobowych, prawo do ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych a także wniesienia sprzeciwu. Informujemy, że Państwa zgoda może zostać cofnięta w dowolnym momencie przez wysłanie wiadomości e-mail na adres poradnia@dietonika.pl spod adresu, którego zgoda dotyczy. 
+            </p>
+            <p>
+              Mają Państwo prawo wniesienia skargi w związku z przetwarzaniem danych osobowych do organu nadzorczego, którym jest Prezes Urzędu Ochrony Danych Osobowych. Państwa dane osobowe będą przechowywane przez okres 2 lat. Informujemy, że nie jesteście Państwo profilowani. Państwa dane nie będą przekazywane poza EOG ani udostępniane organizacjom międzynarodowym.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
