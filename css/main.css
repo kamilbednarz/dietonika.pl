@@ -353,24 +353,24 @@ a:not([href]):not([tabindex]):hover {
 .overlay-2 {
   background: rgba(0, 0, 0, 0.7) !important;
 }
-#video-area nav div { 
+#video-area nav div {
   display: inline-block;
 }
-#video-area nav div a { 
-  color: white; 
-  text-transform: uppercase; 
+#video-area nav div a {
+  color: white;
+  text-transform: uppercase;
   margin-left: 10px;
 }
-#video-area .menu-bg nav div a { 
+#video-area .menu-bg nav div a {
   color: #4676fa;
 }
-#video-area nav { 
-  float: right;  
-  display: inline-block;     
+#video-area nav {
+  float: right;
+  display: inline-block;
   position: absolute;
-  float: right;     
-  right: 0;     
-  top: 13px;     
+  float: right;
+  right: 0;
+  top: 13px;
   color: white;
 }
 #video-area .menu-bg nav {
@@ -866,7 +866,7 @@ a:not([href]):not([tabindex]):hover {
   margin-top: 20px;
 }
 /* ==========================================================================
-   Download 
+   Download
    ========================================================================== */
 #download {
   background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
@@ -882,7 +882,7 @@ a:not([href]):not([tabindex]):hover {
   margin-right: 5px;
 }
 /* ==========================================================================
-   Blog 
+   Blog
    ========================================================================== */
 #blog .blog-item-wrapper {
   background: #fff;
@@ -1361,7 +1361,22 @@ input#gdpr-consent {
 
 .map {
   height: 400px;
+  position: relative;
 }
-#contact { 
+.map .address-box {
+  padding: 10px 20px;
+  width: 285px;
+  position: absolute;
+  height: 160px;
+  background-color: white;
+  border: 1px solid #ccc;
+  top: 10px;
+  left: 10px;
+}
+.map .address-box p i {
+  padding-left: 7px;
+  padding-right: 3px;
+}
+#contact {
   padding-bottom: 30px;
 }
